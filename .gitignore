@@ -1,0 +1,12 @@
+build/
+build-aio/
+.venv/
+baselines/*/build*/
+baselines/*/AnyBuildLogs/
+data/
+runs/
+*.log
+*.tmp
+__pycache__/
+*.pyc
+.cache/

@@ -1,0 +1,5 @@
+add_executable(create_disk_layout create_disk_layout.cpp)
+target_link_libraries(create_disk_layout ${PROJECT_NAME} ${DISKANN_TOOLS_TCMALLOC_LINK_OPTIONS})
+
+add_executable(evaluate_memory_index_quality evaluate_memory_index_quality.cpp)
+target_link_libraries(evaluate_memory_index_quality Boost::program_options)
